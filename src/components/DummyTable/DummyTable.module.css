@@ -1,0 +1,44 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: fit-content;
+}
+
+.table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.head {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  background-color: rgb(43, 42, 41);
+}
+
+th {
+  background-color: rgb(96, 101, 101);
+  min-width: 100px;
+  border-collapse: collapse;
+  height: 30px;
+}
+
+tbody tr {
+  height: 50px;
+}
+tbody tr:nth-child(even) {
+  background-color: #3f413c;
+}
+
+.actionsWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-width: 120px;
+}
